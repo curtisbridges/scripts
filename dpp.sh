@@ -24,7 +24,7 @@ docker_pull()
 }
 
 # base images
-images="ubuntu alpine nginx mongo jenkins jekyll/jekyll gitlab/gitlab-ce openjdk node python ruby"
+images="alpine nginx"
 
 echo "Pulling images..."
 for image in $images; do
@@ -41,4 +41,3 @@ echo
 docker image list
 echo
 echo "Done."
-
