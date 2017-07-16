@@ -21,7 +21,7 @@ fi
 add_commit()
 {
     pushd $1 &> /dev/null
-    git add . && git commit -m \"$2\" || exit 3
+    git add . && git commit -m "$2" || exit 3
     # echo "Success committing directory."
     popd &> /dev/null
 }
