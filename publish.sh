@@ -2,6 +2,7 @@
 #
 # TODO:
 #   (1) getopts - option to stage all and commit source? Verbose, and usage.
+#   (2) option to push along with commit.
 #
 
 if [ $# -eq 0 ]; then
