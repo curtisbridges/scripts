@@ -1,0 +1,7 @@
+tell application "System Events"
+  tell process "Safari" -- Replace "AppName" with the application name
+    get size of window 1 -- Gets width and height
+    get position of window 1 -- Gets top-left corner position
+  end tell
+end tell
+
